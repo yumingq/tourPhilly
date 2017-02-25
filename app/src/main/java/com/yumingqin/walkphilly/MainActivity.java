@@ -1,5 +1,6 @@
 package com.yumingqin.walkphilly;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +11,7 @@ import android.widget.Spinner;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     Spinner spinner;
     ArrayAdapter<CharSequence> adapter;
     static CharSequence location;
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+//        MapsActivity.setUpMapIfNeeded();
     }
 
     public void onLaunchButtonClick(View view){
