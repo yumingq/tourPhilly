@@ -26,3 +26,7 @@ app/src/main/java/com/yumingqin/walkphilly/MainActivity.java
 build.gradle
 
 gradle/wrapper/gradle-wrapper.properties
+
+Location.java
+
+Main.java
