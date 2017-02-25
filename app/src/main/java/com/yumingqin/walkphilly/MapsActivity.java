@@ -2,6 +2,9 @@ package com.yumingqin.walkphilly;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -43,4 +46,36 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_game, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+//            case R.id.Restart:
+//                GameView u = (GameView) findViewById(R.id.gameView);
+//                u.undo();
+//                return true;
+//            case R.id.Clear:
+//                GameView c = (GameView) findViewById(R.id.gameView);
+//                c.clear();
+//                return true;
+//            case R.id.Quit:
+//                GameView q = (GameView) findViewById(R.id.gameView);
+//                q.clear();
+//                q.quit();
+//                onQuit();
+//                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+
 }

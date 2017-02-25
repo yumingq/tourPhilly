@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">walkPhilly</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="fiveLocations">5 Locations</string>
+    <string name="tenLocations">10 Locations</string>
+    <string name="fifteenLocations">15 Locations</string>
+    <string name="restart">Restart</string>
+
+    <!--<string-array name="menu">-->
+        <!--<item>5 Locations</item>-->
+        <!--<item>10 Locations</item>-->
+        <!--<item>15 Locations</item>-->
+        <!--<item>Restart</item>-->
+    <!--</string-array>-->
 </resources>

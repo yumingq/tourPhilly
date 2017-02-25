@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Five"
+        android:title="@string/fiveLocations"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Ten"
+        android:title="@string/tenLocations"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Fifteen"
+        android:title="@string/fifteenLocations"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Restart"
+        android:title="@string/restart"
+        app:showAsAction="never" />
+</menu>
