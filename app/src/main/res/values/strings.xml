@@ -7,10 +7,19 @@
     <string name="fifteenLocations">15 Locations</string>
     <string name="restart">Restart</string>
 
-    <!--<string-array name="menu">-->
-        <!--<item>5 Locations</item>-->
-        <!--<item>10 Locations</item>-->
-        <!--<item>15 Locations</item>-->
-        <!--<item>Restart</item>-->
+    <string name="locs_prompt">Choose the number of locations:</string>
+    <string name="welcome_message">Welcome to Walk Philly!:</string>
+    <string-array name="locations">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+
+    <!--<string-array name="menu]">-->
+    <!--<item>5 Locations</item>-->
+    <!--<item>10 Locations</item>-->
+    <!--<item>15 Locations</item>-->
+    <!--<item>Restart</item>-->
     <!--</string-array>-->
 </resources>
